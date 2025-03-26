@@ -3,7 +3,7 @@ IP Adresi Sorgulama Aracı
 
 Bu Go dilinde yazılmış küçük bir uygulama, kullanıcının cihazının IP adresini sorgular ve IP ile ilgili çeşitli bilgileri döndürür. Bu bilgiler arasında IP adresi, şehir, ülke, organizasyon ve konum yer alır.
 
-Özellikler
+__Özellikler__
 
 Kullanıcının cihazının IP adresini alır.
 
@@ -12,14 +12,14 @@ IP adresine ait şehir, ülke, organizasyon ve konum bilgilerini getirir.
 Basit ve hızlı kullanım için HTTP tabanlı ipinfo.io API'sini kullanır.
 
 
-Gereksinimler
+__Gereksinimler__
 
 Go 1.18 veya daha yeni bir sürümü.
 
 İnternet bağlantısı (API'ye istek gönderebilmek için).
 
 
-Kurulum
+__Kurulum__
 
 Adım 1: Go'yu Yükleyin
 
