@@ -29,8 +29,10 @@ Adım 2: Projeyi İndirin
 
 Proje dosyasını bilgisayarınıza indirin:
 
+```sh
 git clone https://github.com/yourusername/ip-address-lookup.git
 cd ip-address-lookup
+```
 
 Adım 3: Bağımlılıkları Yükleyin
 
@@ -39,9 +41,9 @@ Bu projede HTTP istekleri ve JSON işleme için Go'nun dahili kütüphaneleri ku
 Adım 4: Uygulamayı Çalıştırın
 
 Proje dizininde şu komutu çalıştırarak uygulamayı başlatabilirsiniz:
-
+```sh
 go run main.go
-
+```
 Uygulama çalıştıktan sonra, IP adresinizle ilgili bilgileri terminal üzerinden görebilirsiniz.
 
 Kullanım
