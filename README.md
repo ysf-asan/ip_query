@@ -30,8 +30,8 @@ _Adım 2:_ Projeyi İndirin
 Proje dosyasını bilgisayarınıza indirin:
 
 ```sh
-git clone https://github.com/yourusername/ip-address-lookup.git
-cd ip-address-lookup
+git clone https://https://github.com/ysf-asan/ip_query
+cd ip_query
 ```
 
 _Adım 3:_ Bağımlılıkları Yükleyin
