@@ -21,11 +21,11 @@ Go 1.18 veya daha yeni bir sürümü.
 
 __Kurulum__
 
-Adım 1: Go'yu Yükleyin
+_Adım 1:_ Go'yu Yükleyin
 
 Eğer Go dilini bilgisayarınızda kurulu değilse, Go'nun resmi web sitesinden yükleyebilirsiniz.
 
-Adım 2: Projeyi İndirin
+_Adım 2:_ Projeyi İndirin
 
 Proje dosyasını bilgisayarınıza indirin:
 
@@ -34,11 +34,11 @@ git clone https://github.com/yourusername/ip-address-lookup.git
 cd ip-address-lookup
 ```
 
-Adım 3: Bağımlılıkları Yükleyin
+_Adım 3:_ Bağımlılıkları Yükleyin
 
 Bu projede HTTP istekleri ve JSON işleme için Go'nun dahili kütüphaneleri kullanılmıştır, bu nedenle ek bir bağımlılık yüklemenize gerek yoktur.
 
-Adım 4: Uygulamayı Çalıştırın
+_Adım 4:_ Uygulamayı Çalıştırın
 
 Proje dizininde şu komutu çalıştırarak uygulamayı başlatabilirsiniz:
 ```sh
@@ -46,7 +46,7 @@ go run main.go
 ```
 Uygulama çalıştıktan sonra, IP adresinizle ilgili bilgileri terminal üzerinden görebilirsiniz.
 
-Kullanım
+__Kullanım__
 
 Çalıştırdığınızda uygulama, aşağıdaki bilgileri döndürecektir:
 
@@ -61,14 +61,14 @@ Organizasyon: IP adresinin ait olduğu organizasyon (İSS veya şirket).
 Konum: IP adresinin coğrafi konum bilgileri (enlem ve boylam).
 
 
-API Kullanımı
+__API Kullanımı__
 
 Bu proje, ipinfo.io API'sini kullanarak IP adresi bilgilerini alır. Ücretsiz bir API anahtarı ile günde sınırlı sayıda sorgu yapılabilir. Daha fazla sorgu yapmak için bir API anahtarı alabilir ve projede kullanabilirsiniz.
 
-Katkı
+__Katkı__
 
 Projeye katkıda bulunmak için pull request gönderebilirsiniz. Herhangi bir öneri veya hata bildirimi için Issues kısmını kullanabilirsiniz.
 
-Lisans
+__Lisans__
 
 Bu proje MIT Lisansı ile lisanslanmıştır.
